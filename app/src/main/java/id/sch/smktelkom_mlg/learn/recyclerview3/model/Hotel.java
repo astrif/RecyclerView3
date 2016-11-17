@@ -8,12 +8,17 @@ import android.graphics.drawable.Drawable;
 public class Hotel {
     public String judul;
     public String deskripsi;
-    public Drawable foto;
+    public String foto;
+    public String lokasi;
+    public String detail;
 
-    public Hotel(String judul, String deskripsi, Drawable foto)
+
+    public Hotel(String judul, String deskripsi, String foto, String lokasi, String detail)
     {
         this.judul = judul;
         this.deskripsi = deskripsi;
         this.foto = foto;
+        this.detail = detail;
+        this.lokasi = lokasi;
     }
 }
